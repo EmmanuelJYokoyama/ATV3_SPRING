@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.autobots.automanager.entitades.Empresa;
 import com.autobots.automanager.entitades.Servico;
 import com.autobots.automanager.entitades.Venda;
-import com.autobots.automanager.modeleos.AdicionadorLinkServico;
+import com.autobots.automanager.modelos.AdicionadorLinkServico;
 import com.autobots.automanager.repositorios.RepositorioEmpresa;
 import com.autobots.automanager.repositorios.RepositorioServico;
 import com.autobots.automanager.repositorios.RepositorioVenda;

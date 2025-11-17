@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class AdicionadorLinkEmail implements AdicionadorLink<Email>{
 					.linkTo(WebMvcLinkBuilder
 							.methodOn(EmailControle.class)
 							.buscarEmailID(id))
-					.withRel("Visualizar email de id " + id);
+					.withRel("Ver email de id " + id);
 			email.add(linkProprio);
 		}
 	}

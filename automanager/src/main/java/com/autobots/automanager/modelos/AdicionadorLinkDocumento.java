@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 
@@ -21,7 +21,7 @@ public class AdicionadorLinkDocumento implements AdicionadorLink<Documento>{
 					.linkTo(WebMvcLinkBuilder
 							.methodOn(DocumentoControle.class)
 							.ObterDocumentoID(id))
-					.withRel("Visualizar documento de id " + id);
+					.withRel("Ver documento de id " + id);
 			documento.add(linkProprio);
 		}
 	}

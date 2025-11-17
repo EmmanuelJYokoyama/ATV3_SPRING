@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class AdicionadorLinkTelefone implements AdicionadorLink<Telefone>{
 					.linkTo(WebMvcLinkBuilder
 					.methodOn(TelefoneControle.class)
 					.buscarTelefoneID(id))
-					.withRel("Visualizar telefone de id " + id);
+					.withRel("Ver telefone de id " + id);
 			telefone.add(linkProprio);
 		}
 	}

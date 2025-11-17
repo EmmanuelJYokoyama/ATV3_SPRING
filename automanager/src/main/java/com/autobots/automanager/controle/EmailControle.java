@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.autobots.automanager.entitades.Email;
 import com.autobots.automanager.entitades.Usuario;
-import com.autobots.automanager.modeleos.AdicionadorLinkEmail;
+import com.autobots.automanager.modelos.AdicionadorLinkEmail;
 import com.autobots.automanager.repositorios.RepositorioEmail;
 import com.autobots.automanager.repositorios.RepositorioUsuario;
 

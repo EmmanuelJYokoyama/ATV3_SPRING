@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class AdicionadorLinkVeiculo implements AdicionadorLink<Veiculo>{
 					.linkTo(WebMvcLinkBuilder
 							.methodOn(VeiculoControle.class)
 							.buscarVeiculo(id))
-					.withRel("Visualizar veiculo de id " + id);
+					.withRel("Ver veiculo de id " + id);
 			veiculo.add(linkProprio);
 		}
 	}

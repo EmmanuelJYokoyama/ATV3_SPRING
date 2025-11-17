@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class AdicionarLinkCredencialUsuarioSenha implements AdicionadorLink<Cred
 					.linkTo(WebMvcLinkBuilder
 							.methodOn(CredencialControle.class)
 							.buscarCredencialUsuarioSenhaPorId(id))
-					.withRel("Visualizar credencial de id " + id);
+					.withRel("Ver credencial de id " + id);
 			credencial.add(linkProprio);
 		}
 	}

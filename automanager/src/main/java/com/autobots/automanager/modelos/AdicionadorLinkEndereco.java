@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class AdicionadorLinkEndereco implements AdicionadorLink<Endereco>{
 					.linkTo(WebMvcLinkBuilder
 							.methodOn(EnderecoControle.class)
 							.buscarEnderecoID(id))
-					.withRel("Visualizar endereco de id " + id);
+					.withRel("Ver endereco de id " + id);
 			endereco.add(linkProprio);
 		}
 	}

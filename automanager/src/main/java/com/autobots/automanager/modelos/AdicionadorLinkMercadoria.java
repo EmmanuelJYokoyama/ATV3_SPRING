@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class AdicionadorLinkMercadoria implements AdicionadorLink<Mercadoria>{
 					.linkTo(WebMvcLinkBuilder
 							.methodOn(MercadoriaControle.class)
 							.buscarMercadoriaID(id))
-					.withRel("Visualizar mercadoria de id " + id);
+					.withRel("Ver mercadoria de id " + id);
 			mercadoria.add(linkProprio);
 		}
 	}

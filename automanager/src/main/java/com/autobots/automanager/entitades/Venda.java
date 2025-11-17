@@ -47,52 +47,5 @@ public class Venda extends RepresentationModel<Venda>{
 	@JsonIgnoreProperties(value = {"proprietario" , "vendas"})
 	private Veiculo veiculo;
 	
-	public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public Date getCadastro() {
-		return cadastro;
-	}
-	public void setCadastro(Date cadastro) {
-		this.cadastro = cadastro;
-	}
-	public String getIdentificacao() {
-		return identificacao;
-	}
-	public void setIdentificacao(String identificacao) {
-		this.identificacao = identificacao;
-	}
-	public Usuario getCliente() {
-		return cliente;
-	}
-	public void setCliente(Usuario cliente) {
-		this.cliente = cliente;
-	}
-	public Usuario getFuncionario() {
-		return funcionario;
-	}
-	public void setFuncionario(Usuario funcionario) {
-		this.funcionario = funcionario;
-	}
-	public Set<Mercadoria> getMercadorias() {
-		return mercadorias;
-	}
-	public void setMercadorias(Set<Mercadoria> mercadorias) {
-		this.mercadorias = mercadorias;
-	}
-	public Set<Servico> getServicos() {
-		return servicos;
-	}
-	public void setServicos(Set<Servico> servicos) {
-		this.servicos = servicos;
-	}
-	public Veiculo getVeiculo() {
-		return veiculo;
-	}
-	public void setVeiculo(Veiculo veiculo) {
-		this.veiculo = veiculo;
-	}
+
 }

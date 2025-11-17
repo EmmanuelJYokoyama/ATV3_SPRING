@@ -20,7 +20,7 @@ import com.autobots.automanager.entitades.Empresa;
 import com.autobots.automanager.entitades.Mercadoria;
 import com.autobots.automanager.entitades.Usuario;
 import com.autobots.automanager.entitades.Venda;
-import com.autobots.automanager.modeleos.AdicionadorLinkMercadoria;
+import com.autobots.automanager.modelos.AdicionadorLinkMercadoria;
 import com.autobots.automanager.repositorios.RepositorioEmpresa;
 import com.autobots.automanager.repositorios.RepositorioMercadoria;
 import com.autobots.automanager.repositorios.RepositorioUsuario;

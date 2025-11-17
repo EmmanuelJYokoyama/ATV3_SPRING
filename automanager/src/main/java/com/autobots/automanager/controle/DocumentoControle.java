@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.autobots.automanager.entitades.Documento;
 import com.autobots.automanager.entitades.Usuario;
-import com.autobots.automanager.modeleos.AdicionadorLinkDocumento;
+import com.autobots.automanager.modelos.AdicionadorLinkDocumento;
 import com.autobots.automanager.repositorios.RepositorioDocumento;
 import com.autobots.automanager.repositorios.RepositorioUsuario;
 

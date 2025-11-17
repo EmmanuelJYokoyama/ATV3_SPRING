@@ -18,7 +18,7 @@ import com.autobots.automanager.entitades.Usuario;
 import com.autobots.automanager.entitades.Veiculo;
 import com.autobots.automanager.entitades.Venda;
 import com.autobots.automanager.enumeracoes.PerfilUsuario;
-import com.autobots.automanager.modeleos.AdicionadorLinkUsuario;
+import com.autobots.automanager.modelos.AdicionadorLinkUsuario;
 import com.autobots.automanager.repositorios.RepositorioEmpresa;
 import com.autobots.automanager.repositorios.RepositorioUsuario;
 import com.autobots.automanager.repositorios.RepositorioVeiculo;

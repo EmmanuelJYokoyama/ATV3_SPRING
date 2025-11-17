@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class AdicionadorLinkServico implements AdicionadorLink<Servico>{
 					.linkTo(WebMvcLinkBuilder
 							.methodOn(ServicoControler.class)
 							.buscarServicoID(id))
-					.withRel("Visualizar servico de id " + id);
+					.withRel("Ver servico de id " + id);
 			servico.add(linkProprio);
 		}
 	}

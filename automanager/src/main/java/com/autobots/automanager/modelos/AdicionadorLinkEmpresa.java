@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class AdicionadorLinkEmpresa implements AdicionadorLink<Empresa>{
 					.linkTo(WebMvcLinkBuilder
 							.methodOn(EmpresaControle.class)
 							.buscarEmpresaID(id))
-					.withRel("Visualizar empresa de id " + id);
+					.withRel("Ver empresa de id " + id);
 			empresa.add(linkProprio);
 		}
 	}

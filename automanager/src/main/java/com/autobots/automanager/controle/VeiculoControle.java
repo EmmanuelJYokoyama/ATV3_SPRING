@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.autobots.automanager.entitades.Usuario;
 import com.autobots.automanager.entitades.Veiculo;
 import com.autobots.automanager.entitades.Venda;
-import com.autobots.automanager.modeleos.AdicionadorLinkVeiculo;
+import com.autobots.automanager.modelos.AdicionadorLinkVeiculo;
 import com.autobots.automanager.repositorios.RepositorioUsuario;
 import com.autobots.automanager.repositorios.RepositorioVeiculo;
 import com.autobots.automanager.repositorios.RepositorioVenda;

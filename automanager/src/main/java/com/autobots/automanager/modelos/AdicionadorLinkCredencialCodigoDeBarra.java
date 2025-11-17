@@ -1,4 +1,4 @@
-package com.autobots.automanager.modeleos;
+package com.autobots.automanager.modelos;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class AdicionadorLinkCredencialCodigoDeBarra implements AdicionadorLink<C
 					.linkTo(WebMvcLinkBuilder
 					.methodOn(CredencialControle.class)
 					.buscarCredencialCodigoBarraPorId(id))
-					.withRel("Visualizar credencial de id " + id);
+					.withRel("Ver credencial de id " + id);
 			credencial.add(linkProprio);
 		}
 	}
